@@ -1,4 +1,4 @@
-Portfólio de Projetos — Vitor Henrique
+## Portfólio de Projetos — Vitor Henrique
 
 Bem-vindo ao meu portfólio de análise de dados!
 Aqui compartilho projetos feitos com Python, SQL, Power BI e também estudos de casos que estou desenvolvendo para evoluir na área.
