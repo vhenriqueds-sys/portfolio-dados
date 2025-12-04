@@ -1,27 +1,87 @@
-Projeto: Cálculo da Média de um Estudante
+# 📘 Projeto: Média do Estudante
 
-Descrição:
+Este projeto calcula a **média das notas de um estudante**, usando um dicionário em Python que contém as notas de cada trimestre.
 
-Projeto simples usando Python para calcular a média das notas de um estudante ao longo de três trimestres.
-O objetivo é aplicar:
-uso de dicionários,
-iteração com for,
-cálculo de soma,
-média,
-arredondamento com round()
+---
 
+## 🎯 Objetivo do Projeto
+
+Aprender a:
+
+* Utilizar **dicionários** em Python.
+* Acessar valores usando `.values()`.
+* Fazer somas utilizando loops.
+* Calcular média com **uma casa decimal**.
+
+---
+
+## 🧠 Como funciona
+
+As notas vêm em um dicionário nesse formato:
+
+```python
+notas = {
+    '1º Trimestre': 8.5,
+    '2º Trimestre': 7.5,
+    '3º Trimestre': 9
+}
+```
+
+O programa percorre os valores desse dicionário, soma tudo e divide pelo número de itens.
+
+---
+
+## 🧩 Código do Projeto
+
+```python
 notas = {'1º Trimestre': 8.5, '2º Trimestre': 7.5, '3º Trimestre': 9}
 
 soma = 0
 for nota in notas.values():
-
     soma += nota
 
-media = soma / len(notas)
-media = round(media, 1)
+media = round(soma / len(notas), 1)
+print(f"A média do estudante é: {media}")
+```
 
-print("Média final:", media)
+---
 
+## 📎 Exemplo de saída
 
-Resultado:
-Média final: 8.3
+```
+A média do estudante é: 8.3
+```
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* Python 3
+* VS Code / Google Colab / Jupyter (qualquer um serve)
+
+---
+
+## 📚 Aprendizados
+
+Durante este projeto, foi possível aprender:
+
+* Como trabalhar com dicionários.
+* Como iterar com loops `for`.
+* Como usar `round()` para formatar casas decimais.
+* Lógica básica de programação.
+
+---
+
+## 🚀 Próximos Passos
+
+Ideias para evoluir este projeto:
+
+* Permitir inserir notas manualmente.
+* Calcular médias de vários alunos.
+* Gerar um relatório automático.
+
+---
+
+## ✨ Autor
+
+Projeto desenvolvido por **Vitor Henrique** como parte do seu portfólio de estudos em Python.
