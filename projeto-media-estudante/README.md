@@ -57,7 +57,7 @@ A média do estudante é: 8.3
 ## 🛠️ Tecnologias utilizadas
 
 * Python 3
-* VS Code / Google Colab / Jupyter (qualquer um serve)
+* Google Colab
 
 ---
 
